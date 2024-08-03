@@ -143,6 +143,5 @@ function updateStatus(selectedTask) {
   }
 
   displayTask(document.querySelector("span.active").id);
-
   localStorage.setItem("gorevListesi", JSON.stringify(gorevListesi));
 }
