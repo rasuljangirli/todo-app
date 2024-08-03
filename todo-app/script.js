@@ -12,7 +12,6 @@ const btnClear = document.getElementById("btnClear");
 const filters = document.querySelectorAll(".filters span")
 displayTask("all");
 
-
 function displayTask(filter) {
   let ul = document.getElementById("task-list");
   ul.innerHTML = "";
