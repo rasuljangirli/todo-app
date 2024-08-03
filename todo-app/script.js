@@ -124,7 +124,6 @@ btnClear.addEventListener("click", function () {
 })
 
 function updateStatus(selectedTask) {
-
   let label = selectedTask.nextElementSibling;
   let durum;
 
