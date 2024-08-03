@@ -6,7 +6,6 @@ if (localStorage.getItem("gorevListesi") !== null) {
 
 let editId;
 let isEditTask = false;
-
 const taskInput = document.querySelector("#txtTaskName");
 const btnClear = document.getElementById("btnClear");
 const filters = document.querySelectorAll(".filters span")
