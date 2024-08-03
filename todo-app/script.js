@@ -101,7 +101,6 @@ function deleteTask(id) {
     }
   }
 
-
   gorevListesi.splice(deletedId, 1);
   displayTask(document.querySelector("span.active").id);
   localStorage.setItem("gorevListesi", JSON.stringify(gorevListesi));
